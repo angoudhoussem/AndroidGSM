@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <AbsoluteLayout
+        android:id="@+id/AbsoluteLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="553dp" >
+
+        <RelativeLayout
+            android:layout_width="371dp"
+            android:layout_height="56dp"
+            android:layout_x="-6dp"
+            android:layout_y="-10dp"
+            android:background="@drawable/dialog_background_top" >
+
+            <TextView
+                style="@style/authentification_title"
+                android:layout_centerVertical="true"
+                android:gravity="center_horizontal"
+                android:text="@string/registration_txt" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="318dp"
+            android:layout_x="2dp"
+            android:layout_y="56dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp" />
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:layout_x="50dp"
+            android:layout_y="294dp"
+            android:background="@drawable/edittext"
+            android:drawableLeft="@drawable/telephone"
+            android:ems="10"
+            android:hint="Tel" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="52dp"
+            android:layout_y="58dp"
+            android:background="@drawable/edittext"
+            android:drawableLeft="@drawable/us"
+            android:ems="10"
+            android:hint="Prenom" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_x="48dp"
+            android:layout_y="166dp"
+            android:background="@drawable/edittext"
+            android:drawableLeft="@drawable/us"
+            android:ems="10"
+            android:hint="Login" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_x="48dp"
+            android:layout_y="116dp"
+            android:background="@drawable/edittext"
+            android:drawableLeft="@drawable/us"
+            android:ems="10"
+            android:hint="Nom" />
+
+        <EditText
+            android:id="@+id/editpssword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_x="54dp"
+            android:layout_y="227dp"
+            android:background="@drawable/edittext"
+            android:drawableLeft="@drawable/ps"
+            android:ems="10"
+            android:hint="Passsword" />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/dialog_button"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2.0dip"
+            android:layout_x="201dp"
+            android:layout_y="389dp"
+            android:text="@string/btn_annuler_text" />
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/dialog_button"
+            android:layout_width="108dp"
+            android:layout_marginRight="2.0dip"
+            android:layout_x="74dp"
+            android:layout_y="393dp"
+            android:text="@string/btn_save_text" />
+
+    </AbsoluteLayout>
+
+</ScrollView>

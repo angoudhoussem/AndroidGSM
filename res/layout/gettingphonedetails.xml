@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bckk">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="37dp"
+        android:layout_height="39dp"
+        android:layout_x="8dp"
+        android:layout_y="55dp"
+        android:src="@drawable/phon" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="44dp"
+        android:layout_y="60dp"
+        android:text="Getting Phone Details"
+        android:textColor="#77B5FE"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="138dp"
+        android:text="Phone Type"
+        android:textColor="#0000FF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="17dp"
+        android:layout_y="184dp"
+        android:text="Model"
+        android:textColor="#0000FF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="228dp"
+        android:text="Device User Name"
+        android:textColor="#0000FF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="19dp"
+        android:layout_y="275dp"
+        android:text="Android Version"
+         android:textColor="#0000FF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="215dp"
+        android:layout_y="140dp"
+        android:text="TextView"
+        android:textColor="#677179"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="215dp"
+        android:layout_y="184dp"
+        android:text="TextView"
+        android:textColor="#677179"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="215dp"
+        android:layout_y="230dp"
+        android:text="TextView"
+        android:textColor="#677179"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="223dp"
+        android:layout_y="275dp"
+        android:text="TextView"
+        android:textColor="#677179"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+    
+</AbsoluteLayout>

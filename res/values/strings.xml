@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Optimisation et Mesure GSM</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="lgin">Login</string>
+    <string name="pwd">Password</string>
+    <string name="insc"><u>Creér Compte</u></string>
+    <string name="btn_login_text">Connexion</string>
+    <string name="btn_annuler_text">Annuler</string>
+    <string name="btn_save_text">Save</string>
+    <string name="registration_txt">Inscription</string>
+    <string name="title_activity_main">Pie Chart Demo</string>
+    <string name="str_btn_chart">Pie Chart</string>
+     <string name="app_statistique">Statistique</string>
+
+</resources>

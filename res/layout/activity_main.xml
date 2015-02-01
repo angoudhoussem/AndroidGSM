@@ -1,0 +1,70 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bckk" >
+
+    <ImageView
+        android:id="@+id/iconsetting"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_x="54dp"
+        android:layout_y="127dp"
+        android:src="@drawable/setting" />
+
+    <ImageView
+        android:id="@+id/imagemap"
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:layout_x="218dp"
+        android:layout_y="127dp"
+        android:src="@drawable/iconmap" />
+
+    <ImageView
+        android:id="@+id/imagehelp"
+        android:layout_width="61dp"
+        android:layout_height="61dp"
+        android:layout_x="222dp"
+        android:layout_y="252dp"
+        android:src="@drawable/help" />
+
+    <ImageView
+        android:id="@+id/imagesatat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="64dp"
+        android:layout_y="244dp"
+        android:src="@drawable/satis" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_x="52dp"
+        android:layout_y="40dp"
+        android:gravity="center"
+        android:text="MobiTel"
+        android:textColor="#77B5FE"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_x="320dp"
+        android:layout_y="7dp"
+        android:src="@drawable/deconnexion" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="48dp"
+        android:layout_y="520dp"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#77B5FE" />
+
+</AbsoluteLayout>
